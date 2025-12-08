@@ -23,6 +23,9 @@ public class Goodbye {
     double b = 0.1123123;
     System.out.println(a + b);
 
+    double c = 123; //implicit conversion
+    System.out.println(c);
+
   }
     
   
