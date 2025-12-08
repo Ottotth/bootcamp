@@ -26,6 +26,16 @@ public class Goodbye {
     double c = 123; //implicit conversion
     System.out.println(c);
 
+    //byte stort int long
+    //byte (-128 ~ 127)
+    //short (-32,768 ~ 32,767)
+    //int (-2,147,483,648 ~ 2,147,483,647)
+    //long (+ - 2^63)
+
+    byte b1 = 127; 
+    long l1 = 20000000000L ;
+    System.out.println(l1 + b1);
+ 
   }
     
   
