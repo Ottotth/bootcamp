@@ -1,4 +1,4 @@
-public class Demo {
+public class DemoLoop {
   public static void main(String[] args) {
     // For Loop
     long x = 2;
@@ -23,9 +23,22 @@ public class Demo {
     String name = "David";
     for (int i = 0; i < name.length(); i++) {
       if (name.charAt(i) == 'i') {
-        System.out.println("Found i at index " + (i+1) );
+        System.out.println("Found i at index " + (i + 1));
       }
     }
+
+    // break; break the loop
+    String str = "character";
+    for (int i = 0; i < str.length(); i++) {
+      if (str.charAt(i) == 'a') {
+        System.out.println("Found a at index " + (i + 1));
+        break;
+      }
+    }
+    
+
+    
+
 
   }
 

@@ -59,5 +59,22 @@ public class DemoIf {
       System.out.println("Your name is start with " + name.charAt(0));
     }
 
+    // Switch it like else if
+    // should add break; at the end of each case
+    char grade = 'J';
+    switch (grade) {
+      case 'A':
+        System.out.println("Excellent");
+        break;
+      case 'B':
+        System.out.println("Good");
+        break;
+      case 'C':
+        System.out.println("Fair");
+        break;
+      default:
+        System.out.println("Poor");
+    }
+
   }
 }
