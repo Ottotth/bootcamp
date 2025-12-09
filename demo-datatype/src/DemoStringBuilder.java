@@ -31,6 +31,20 @@ public class DemoStringBuilder {
     long end2 = System.currentTimeMillis();
     System.out.println(end2 - before2);
     
+    //Other Methods
+    System.out.println(sb.length());
+    System.out.println(sb.isEmpty());
+    System.out.println(sb.indexOf("b"));
+
+    //reverse
+    String input = "hello";
+    String reversed = new StringBuilder(input).reverse().toString();
+    System.out.println(reversed);
+
+    //Delete CharAt
+    StringBuilder sb3 = new StringBuilder("whatupp");
+    sb3.deleteCharAt(3);
+    System.out.println(sb3); //whaupp
     
     
   }

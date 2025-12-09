@@ -91,6 +91,34 @@ public class DemoArray {
       }
     }
     System.out.println(Arrays.toString(arr6));
+
+    //
+    char[] characters = new char[]{'c','g','o','t','r','r','r'};
+    //which letter has most
+    
+    int[] charr = new int[26];
+
+    for (int i = 0 ; characters.length > i ; i++){
+      char ch = characters[i];
+      charr[ch - 'a']++;
+      }
+      System.out.println(Arrays.toString(charr));
+    
+      int maxPos = charr[0];
+    for (int i = 0 ; charr.length > i ; i++){
+      if(charr[i] > maxPos){
+        maxPos = i;
+        System.out.println(charr[i] +"|" + maxPos);
+      }
+    }
+      System.out.println((char) (maxPos + 'a'));
+
+      
+    
+    
+
+
+
   }
 
 }
