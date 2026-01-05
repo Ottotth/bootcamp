@@ -1,19 +1,17 @@
 public class Card {
-  private char rank; // A 2 3 4 5 6 7 8 9 T J Q K
+  private Rank rank; // A 2 3 4 5 6 7 8 9 T J Q K
   private char suit; // D C H S
   private int rankR;
   private int suitR;
 
   // constructor
-  public Card(char rank, char suit, int rankR, int suitR) {
+  public Card(Rank rank, char suit) {
     this.rank = rank;
     this.suit = suit;
-    this.rankR = rankR;
-    this.suitR = suitR;
-    
+
   }
 
-  public char getRank() {
+  public Rank getRank() {
     return this.rank;
   }
 

@@ -38,7 +38,7 @@ public class Dog extends Animal{
   }
 
   public static void main(String[] args) {
-    Cat c1 = new Cat("AA" , 1333);
+    CatA c1 = new CatA("AA" , 1333);
     Dog d2 = new Dog("BGV" , 32323);
 
     

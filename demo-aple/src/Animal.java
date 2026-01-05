@@ -31,6 +31,10 @@ public abstract class Animal {
     return this.age;
   }
 
+  public void sound(String s){
+    System.out.println(s);
+  }
+
   @Override
   public String toString(){
     return "Animal("//

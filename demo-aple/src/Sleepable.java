@@ -1,3 +1,3 @@
-public interface Sleep {
+public interface Sleepable {
   public void sleep();
 }
